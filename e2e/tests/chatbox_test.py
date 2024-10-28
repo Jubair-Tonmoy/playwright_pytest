@@ -25,8 +25,8 @@ def test_chatbox(browser_context):
 
     with allure.step("Verify chatbox URL and send message"):
         # Replace with your project id
-        page.wait_for_url(f"{base_url}/projects/1981/inbox")
-        chatbox_page.text_send_confirm("Good day")
+        page.wait_for_url(f"{base_url}/projects/1982/inbox")
+        chatbox_page.text_send_confirm("Good day from jubair ahmed khan")
         page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
 
     allure.attach(

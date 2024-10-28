@@ -1,4 +1,4 @@
-from pages.login_page import LoginPage
+from pages.login.login_page import LoginPage
 from utils.config_loader import load_config, load_login_data
 
 
